@@ -1,0 +1,867 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    height: 80px;
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    justify-content: space-between;
+}
+header, .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+header .logo {
+    padding: 19px 0 0 10px;
+}
+header .nav {
+    margin-top: 32px;
+    margin-right: 10px;
+}
+header .nav .nav_link {
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 14px;
+    &:hover {
+        border-bottom: 1px solid #86AFC0;
+    }
+} /* Конец ШАПКИ */
+
+/* Секция Старт */
+.start {
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(https://assets.nicepagecdn.com/d2cc3eaa/6313535/images/man-using-tablet-his-smart-home-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.start h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.start .cards {
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+.start .card {
+    background-color: #FFFFFF;
+    width: 370px;
+    height: 350px;
+    border-radius: 50px;
+    margin: 0;
+    margin-left: 40px;
+}
+.card_icon {
+    width: 65px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+.card h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #222121;
+}
+.card p {
+    text-align: center;
+    font-size: 19px;
+    position: relative;
+    margin: 20px;
+    color: #2D2D2D;
+}
+.card a {
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #393939;
+    text-decoration: underline;
+    cursor: pointer;
+} /* Конец секции ОДИН */
+
+/* Секция Second */
+.second {
+    background-color: #F1F6F9;
+    min-height: 85vh;
+    display: flex;
+}
+.second h1 {
+    text-align: center;
+    color: #1A1A1A;
+    margin-top: 220px;
+    font-size: 60px; 
+}
+.second .cards {
+    display: flex;
+    top: 30px;
+}
+.second .card {
+    background-color: #FFFFFF;
+    width: 410px;
+    height: 350px;
+    border-radius: 50px;
+    margin: 0;
+    margin-left: 30px;
+}
+.second h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.second .text {
+    text-align: left;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.second .line {
+    height: 2px;
+    width: 300px;
+    background-color: #86AFC0;
+    margin-left: 37px;
+}
+.second .date {
+    text-transform: uppercase;
+    color: #86AFC0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
+} /* Конец секции ДВА */
+
+/* Секция Third */
+.third {
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+}
+.third img {
+    width: 600px;
+    border-radius: 40px;
+    margin-left: 360px;
+    margin-top: 90px;
+}
+.block-2 {
+    width: 730px;
+    height: 740px;
+    background-color: #F1F5F9;
+    margin-top: 90px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+.block-2 h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 150px;
+}
+.block-2 p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.numbers {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.numbers p {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #8CA5AE;
+}
+.third .text {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 75px;
+}
+.text p {
+    margin-left: 35px;
+    margin-right: 40px;
+    color: #8CA5AE;
+    margin-top: -30px;
+    font-weight: 600;
+} /* Конец секции ТРИ */
+
+/* Секция fourth */
+.fourth {
+    display: flex;
+    width: 100%;
+    min-height: 85vh;
+}
+.fourth .block_1 {
+    margin-left: 310px;
+    margin-top: 160px;
+}
+.fourth h1 {
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.line-1, .line-2 {
+    display: flex;
+    width: 700px;
+}
+.block_1 .box1 {
+    margin-left: 140px;
+}
+.line {
+    background-color: #8CA5AE;
+    width: 240px;
+    height: 2px;
+}
+.line-2 .box {
+    margin-top: 40px;
+}
+.line-2 .box1 {
+    margin-top: 40px;
+}
+.fourth img {
+    width: 600px;
+    border-radius: 45px;
+    margin-top: 170px;
+    margin-left: 70px;
+} /* Конец секции ЧЕТЫРЕ */
+
+/* Секция fifth */
+.fifth {
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://assets.nicepagecdn.com/d2cc3eaa/6313535/images/rendering-smart-home-device6.jpg);
+}
+.container-fifth {
+    position: absolute;
+}
+.fifth h1 {
+    margin: 0;
+    margin-left: 540px;
+    font-size: 60px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 280px;
+}
+.fifth p {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 470px;
+    color: #FFFFFF;
+}
+.fifth button {
+    width: 600px;
+    height: 80px;
+    border: 2px solid #fffdfd;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 50px;
+    margin-left: 760px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+        background-color: #FFFFFF;
+        color: #222121;
+    } 
+} /* Конец секции ПЯТЬ */
+
+/* Секция sixth */
+.sixth {
+    width: 100%;
+    min-height: 85vh;
+}
+.sixth h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    margin-top: 100px;
+}
+.block-images {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+.block-images .image-1 {
+    width: 420px;
+    height: 520px;
+    border-radius: 30px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.521)), url(https://assets.nicepagecdn.com/d2cc3eaa/6313535/images/japanese-culture-house-entrance.jpg);
+    background-position: 50% 50%;
+}
+.block-images .image-2 {
+    width: 420px;
+    height: 520px;
+    border-radius: 30px;
+    margin-left: 40px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.25)), url(https://assets.nicepagecdn.com/d2cc3eaa/6313535/images/blurry-man-working-laptop-front.jpg);
+    background-position: 50% 50%;
+}
+.block-images .image-3 {
+    width: 420px;
+    height: 520px;
+    border-radius: 30px;
+    margin-left: 40px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.479)), url(https://assets.nicepagecdn.com/d2cc3eaa/6313535/images/man-holding-smartphone-with-home.jpg);
+    background-position: 50% 50%;
+}
+.block-images .line {
+    margin-top: 350px;
+    margin-left: 35px;
+    width: 280px;
+    height: 3px;
+}
+.block-images h1 {
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.block-images p {
+    font-size: 19px;
+    color: #a8a5a5;
+    text-align: left;
+    margin-left: 35px;
+}
+.block-images .arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #3d3c3ca9;
+    border-radius: 60px;
+    margin: 0;
+    margin-top: -240px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.arrow-up {
+    width: 20px;
+    height: 2px;
+    background-color: #FFFFFF;
+    transform: rotate(45deg);
+    margin-top: 32px;
+    margin-left: 13px;
+    position: absolute;
+}
+.arrow-down {
+    width: 20px;
+    height: 2px;
+    background-color: #FFFFFF;
+    transform: rotate(-45deg);
+    margin-top: 18px;
+    margin-left: 13px;
+    position: absolute;
+}
+.image-3 .arrow {
+    margin-left: 360px;
+}
+.image-3 .arrow-up {
+    transform: rotate(-45deg);
+    margin-left: 15px;
+}
+.image-3 .arrow-down {
+    transform: rotate(45deg);
+    margin-left: 15px;
+}
+/* Конец Секции ШЕСТЬ */
+
+/* Секция seventh */
+.seventh {
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    background-color: #86AFC0;
+}
+.seventh img {
+    border-radius: 0px 50px 50px 0px;
+    width: 600px;
+    height: 590px;
+    margin-top: 120px;
+}
+.block-123 {
+    margin-left: 70px;
+    margin-top: 120px;
+}
+.text1 {
+    font-size: 45px;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.block-123 p {
+    color: #fffdfd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+.seventh button {
+    width: 500px;
+    height: 80px;
+    border: 2px solid #fffdfd;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+        background-color: #FFFFFF;
+        color: #222121;
+    }
+}
+.block-icons {
+    display: flex;
+}
+.block-123 .icon-1 {
+    width: 100px;
+    background-color: #FFFFFF;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.icon-1 .img1 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 26px;
+}
+.block-123 .icon-2 {
+    width: 100px;
+    background-color: #FFFFFF;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.icon-2 .img2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 26px;
+}
+.block-123 .icon-3 {
+    width: 100px;
+    background-color: #FFFFFF;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.icon-3 .img3 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 26px;
+}
+.block-icons p {
+    color: #fffdfd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: -10px;
+} /* Конец секции СЕМЬ */
+
+/* Секция eighth */
+.eighth {
+    width: 100%;
+    min-height: 90vh;
+    background-color: #F1F6F9;
+}
+.container-eighth {
+    position: absolute;
+}
+.eighth h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+    margin-left: 260px;
+}
+.eighth p {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.eighth .cards {
+    display: flex;
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.eighth .card {
+    background-color: #FFFFFF;
+    width: 530px;
+    height: 520px;
+    border-radius: 60px;
+    margin-left: 30px; 
+}
+.eighth .card_icon {
+    width: 390px;
+    border-radius: 30px;
+    margin-left: 75px;
+}
+.eighth h3 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.eighth .text {
+    margin: 0;
+    margin-top: 10px;
+    color: #656161;
+} /* Конец секции ВОСЕМЬ */
+
+/* Секция Ninth */
+.ninth {
+    width: 100%;
+    min-height: 90vh;
+}
+.container-ninth {
+    position: absolute;
+}
+.ninth h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 50px;
+    font-weight: 500;
+    margin-left: 360px;
+}
+.ninth .text {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 330px;
+}
+.ninth .accordion {
+    margin-left: 420px;
+}
+.accordion-item {
+    background-color: #e7e5e5;
+    width: 1300px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    cursor: pointer;
+    &:hover {
+        background-color: #F1F6F9;
+    }
+}
+.accordion-item .text1 {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #858585;
+}
+.accordion-item .plus {
+    width: 40px;
+    margin-right: 15px;
+}
+.accordion-item .horizontal {
+    background-color: #858585;
+    width: 20px;
+    height: 2px;
+    margin-top: 37px;
+}
+.accordion-item .vertical {
+    background-color: #858585;
+    width: 20px;
+    height: 2px;
+    margin-right: 30px;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-top: 37px;
+} /* Конец секции ДЕВЯТЬ */
+
+/* Секция TENTH */
+.tenth {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.tenth .block-input {
+    margin-left: 230px;
+}
+.tenth h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    margin: 0;
+    margin-top: 60px;
+}
+.tenth p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+.tenth .input {
+    background-color: #F2F2F2;
+    width: 710px;
+    height: 680px;
+    border-radius: 70px;
+    margin-top: 50px;
+}
+.tenth img {
+    width: 830px;
+    height: 820px;
+    margin-top: 110px;
+    border-radius: 60px;
+    margin-left: 40px;
+}
+.tenth .inp-name {
+    background-color: #FFFFFF;
+    border: 0;
+    width: 640px;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.tenth .inp-email {
+    background-color: #FFFFFF;
+    border: 0;
+    width: 640px;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.tenth .inp-message {
+    background-color: #FFFFFF;
+    border: 0;
+    width: 640px;
+    height: 160px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.tenth button {
+    width: 300px;
+    height: 70px;
+    border-radius: 90px;
+    border: 0;
+    background-color: #86AFC0;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover {
+        background-color: #71A1B5;
+    }
+}
+/* Конец секции ДЕСЯТЬ */
+
+/* Секция Eleventh */
+.eleventh {
+    width: 100%;
+    min-height: 70vh;
+}
+iframe {
+    width: 100%;
+    height: 70vh;
+} /* Конец секции ОДИННАДЦАТЬ */
+
+/* Секция Twelfth */
+.twelfth {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #293033;
+}
+.block-text-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+.block-text h1 {
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    margin-top: 110px;
+}
+.block-text p {
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.twelfth button {
+    width: 500px;
+    height: 80px;
+    border: 2px solid #fffdfd;
+    border-radius: 40px;
+    border: 0;
+    background-color: #86AFC0;
+    margin-top: 170px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 360px;
+    &:hover {
+        background-color: #FFFFFF;
+        color: #222121;
+    }
+}
+.twelfth .twelfth-line {
+    height: 2px;
+    width: 1600px;
+    background-color: #474B4C;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.twelfth .block-blocks {
+    display: flex;
+    margin-left: 300px;
+}
+.block-1-1 img {
+    width: 200px;
+    margin-top: 40px;
+}
+.text_1 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.nav-twelfth img {
+    width: 25px;
+    height: 24px;
+    margin-top: 46px;
+}
+.nav-twelfth {
+    display: flex;
+}
+.nav-twelfth p {
+    margin-left: 9px;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.block-1-1 h2 {
+    color: #86AFC0;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.block-1-1 h2:hover {
+    color: #FFFFFF;
+}
+.twelfth-icons {
+    display: flex;
+    margin-top: 35px;
+}
+.twelfth svg {
+    cursor: pointer;
+    margin-left: 10px;
+}
+.block-1-2 {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.block-1-2 h2 {
+    font-size: 45px;
+    color: #86AFC0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    font-weight: 800;
+    cursor: pointer;
+    &:hover {
+        color: #FFFFFF;
+    }
+}
+.block-1-2 .line {
+    height: 2px;
+    width: 430px;
+    background-color: #474B4C;
+    margin-top: 50px;
+}
+.block-1-2 h3 {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover {
+        color: #86AFC0;
+    }
+}
+.block-1-3 {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.block-1-3 p {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    &:hover {
+        text-decoration: underline;
+    }
+} /* Конец секции ДВЕНАДЦАТЬ */
+
+.last {
+    background-color: #333333;
+    width: 100%;
+    height: 15vh;
+}
+.container-last {
+    position: absolute;
+}
+.last p {
+    margin-left: 900px;
+    margin-top: 70px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
